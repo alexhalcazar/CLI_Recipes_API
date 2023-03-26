@@ -6,7 +6,7 @@ const history = require('./history.js');
 // application logic
 const _selectMeal = async (options) => {
     try {
-
+        // each element has a name and id
         const selection = options.map(element => {
             return {title: `${element.strMeal}`, value: element.idMeal};
         })
@@ -25,8 +25,9 @@ const _selectMeal = async (options) => {
 
 const searchMeal = async (args) => {                  // arguments user passes in         
     try {
-        
+        // returns an array of the meal categories
         const mealCategories = await api.filterByCategory(args.category);
+        // select a specific meal
         const meal = await _selectMeal(mealCategories);
         
         let result = mealCategories.length; 
