@@ -22,7 +22,7 @@ This will install the necessary packages isted in the **'dependencies'** section
 
 3. Run the CLI:
 
-One the dependencies are installed, you can run the CLI using:
+Once the dependencies are installed, you can run the CLI using:
 
 *Bash*
 > node cli.js
@@ -43,4 +43,4 @@ If you encounter any issues or have suggesttions for improvement, please [create
 
 ## Acknowledgements
 
-**Authors:**Alex Alcazar, Bryan Gonzalez, Hugo Izquierdo
+**Authors:** Alex Alcazar, Bryan Gonzalez, Hugo Izquierdo
