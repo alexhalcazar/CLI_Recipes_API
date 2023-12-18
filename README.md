@@ -34,25 +34,21 @@ This will install the necessary packages isted in the **'dependencies'** section
 
 ## Usage
 
-3. Run the CLI:
+**Search for Recipes:**
 
-Once the dependencies are installed, you can run the CLI using:
+3. Run the CLI with a search command:
+
+Once the dependencies are installed, you can run the CLI with a search command. Use the following format:
 
 ```bash
-node cli.js
+node cli.js search <query>
 ```
 
 This assumes that **'cli.js'** is your main entry point. Adjust the command accordingly if your entry point is different.
 
-4. Available Commands:
-
-**Search for Recipes:**
-```bash
-npm start search <query>
-```
 Replace '<query>' with your desired meal category.
 
-5. Responding to Prompts
+4. Responding to Prompts
 
 When prompted for a meal category, use the up and down arrow keys to cycle through the available meals.
 
