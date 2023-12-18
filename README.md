@@ -46,7 +46,7 @@ node cli.js search <query>
 
 This assumes that **'cli.js'** is your main entry point. Adjust the command accordingly if your entry point is different.
 
-Replace '<query>' with your desired meal category.
+Replace `<query>` with your desired meal category.
 
 4. Responding to Prompts
 
