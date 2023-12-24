@@ -48,6 +48,11 @@ This assumes that **'cli.js'** is your main entry point. Adjust the command acco
 
 Replace `<query>` with your desired meal category.
 
+- **Usage Example:**
+```bash
+node cli.js search Chicken
+```
+
 4. Responding to Prompts
 
 When prompted for a meal category, use the up and down arrow keys to cycle through the available meals.
@@ -56,7 +61,7 @@ With your desired meal category selected press 'Return'.
 
 ## Reporting Issues
 
-If you encounter any issues or have suggesttions for improvement, please [create an issue](https://github.com/alexhalcazar/CLI_Recipes_API/issues)
+If you encounter any issues or have suggestions for improvement, please [create an issue](https://github.com/alexhalcazar/CLI_Recipes_API/issues)
 
 ## Authors
 
